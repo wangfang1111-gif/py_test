@@ -1,0 +1,43 @@
+django :功能全面
+不足：笨重
+
+flask : 功能较少，第三方模块功能较多
+不足：依赖第三方开发
+
+tornado :异步非阻塞，支持高并发
+
+框架有3部分
+A:socket部分 （wsgirf模块）
+B：路由与视图函数对应(路由匹配)
+C：模板语法（jinjia2）
+是否安装成功
+django-admin
+创建项目
+django-admin startproject 项目名
+启动项目一定要换到项目文件夹
+python3 manager.py  runserver
+django是一款开发app的web框架,一个app就是一块功能
+创建应用
+python manage.py startapp app01
+创建应用的文件介绍
+settings.py 配置文件
+urls.py 路由与视图函数
+wsgi.py ==不考虑
+manage.py  django的入口文件
+db.sqlite3 自带小行数据库
+app01文件夹介绍：
+admin.py 后台管理
+apps.py 注册使用
+migration文件夹 数据库迁移记录
+model.py 数据库类的 模块orm
+test.py 测试文件
+view.py  视图函数，视图层
+
+需要再settings文件中注册
+需要的3板斧
+httpresponse :返回字符串类型的数据
+redirect:重定向
+render:返回html文件
+
+
+

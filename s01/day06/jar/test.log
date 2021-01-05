@@ -1,0 +1,11 @@
+start write file
+============start=============
+axis-1.0.jar
+axis-1.2.jar
+============end=============
+============start=============
+axis2-1.6.1.jar
+axis2-1.6.2.jar
+============end=============
+rm -rf axis-1.0.jar
+rm -rf axis2-1.6.1.jar
